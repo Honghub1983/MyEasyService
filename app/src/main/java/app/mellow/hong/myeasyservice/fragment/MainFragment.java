@@ -15,8 +15,6 @@ import app.mellow.hong.myeasyservice.R;
 
 public class MainFragment extends Fragment{
 //    create fragment
-
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
