@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="app.mellow.hong.myeasyservice.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/MyDrawer">
 
     <!--//Content-->
     <LinearLayout
@@ -60,6 +61,8 @@
                 android:text="Main Fragment"
                 android:textColor="@color/colorPrimaryDark"
                 android:layout_gravity="center_vertical"
+                android:id="@+id/txtMain"
+                android:clickable="true"
                 />
 
         </LinearLayout>
@@ -83,6 +86,8 @@
                 android:text="Second Fragment"
                 android:textColor="@color/colorPrimaryDark"
                 android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:id="@+id/txtSecond"
                 />
 
         </LinearLayout>
@@ -105,6 +110,8 @@
                 android:text="Exit"
                 android:textColor="#3E3F48"
                 android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:id="@+id/txtExit"
                 />
 
         </LinearLayout>
