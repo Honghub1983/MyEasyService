@@ -21,7 +21,8 @@
         android:id="@+id/imgPhoto"
         android:layout_width="@dimen/icon2"
         android:layout_height="@dimen/icon2"
-        android:src="@drawable/cloth1"/>
+        android:src="@drawable/cloth1"
+        />
 
     <!--button back-->
     <Button
