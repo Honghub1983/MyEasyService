@@ -35,6 +35,16 @@
         android:layout_marginLeft="@dimen/margin"/>
     <!--This is Text View-->
 
+    <!--go to second page-->
+
+    <Button
+        android:id="@+id/btnGoToSecond"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/icon2"
+        android:layout_height="wrap_content"
+        android:text="Go to Second"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"/>
 
 
 </LinearLayout>
