@@ -18,15 +18,17 @@
 
     <!--Image-->
     <ImageView
+        android:id="@+id/imgPhoto"
         android:layout_width="@dimen/icon2"
         android:layout_height="@dimen/icon2"
         android:src="@drawable/cloth1"/>
 
     <!--button back-->
     <Button
+        android:id="@+id/btnBack"
         android:layout_width="@dimen/icon2"
         android:layout_height="wrap_content"
-        android:text="Back"
         android:background="@color/colorPrimary"
-        android:textColor="#ffffff"/>
+        android:text="Back"
+        android:textColor="#ffffff" />
 </LinearLayout>
