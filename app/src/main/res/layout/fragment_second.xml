@@ -16,6 +16,16 @@
         android:layout_margin="@dimen/margin"/>
 
     <!--Image-->
+    <ImageView
+        android:layout_width="@dimen/icon2"
+        android:layout_height="@dimen/icon2"
+        android:src="@drawable/cloth1"/>
 
     <!--button back-->
+    <Button
+        android:layout_width="@dimen/icon2"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"/>
 </LinearLayout>
